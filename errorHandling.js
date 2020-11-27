@@ -11,8 +11,8 @@ exports.handle404s = (_, __, next) => {
 exports.errorHandler = (error, _, res, next) => {
     res.status(error.status || 500).json({
         statusCode: error.statusCode || 500,
-        status: error.status || "Failed",
-        message: error.message || "System Failure",
+        status: error.status || "failed",
+        message: error.message,
         stack: error.stack,
         ...error
     });

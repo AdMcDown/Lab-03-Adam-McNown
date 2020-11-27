@@ -24,10 +24,10 @@ exports.show = async (_, res, next) => {
 
 exports.findId = async (req, res, next) => {
     try {
-        const path = `${people}/${id}`
 
-        const { person: [person] } = get(path);
-        person.thumbnail = this.thumbnail(person.thumbnail)(req.params.id);
+        console.log(req.params.id);
+        const person = people.find(person => person.id === Number(req.params.id));
+
         res.status(200).json(person);
     }catch (error){
         next(error);

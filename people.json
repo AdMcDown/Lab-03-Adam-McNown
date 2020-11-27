@@ -3,24 +3,24 @@
         "id": 1,
         "name": "Jake Ass",
         "age": 12,
-        "catch phrase": "Eat it you hoser"
+        "catchPhrase": "Eat it you hoser"
     },
     {
         "id": 2,
         "name": "Dugh Milks",
         "age": 39,
-        "catch phrase": "I would love some milk dudes"
+        "catchPhrase": "I would love some milk dudes"
     },
     {
         "id": 3,
         "name": "Ash Hotman",
         "age": 31,
-        "catch phrase": "Fire is the only cure all!!!"
+        "catchPhrase": "Fire is the only cure all!!!"
     },
     {
         "id": 4,
         "name": "Luke Murdock",
         "age": 29,
-        "catch phrase": "Silient but deadly is boring, my farts are loud and a bio hazard!!"
+        "catchPhrase": "Silient but deadly is boring, my farts are loud and a bio hazard!!"
     }
 ]
